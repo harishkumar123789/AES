@@ -18,7 +18,7 @@ void xorCrypt(char *in, char *key) {
 for (int i = 0; in[i]; i++) in[i] ^= key[i % strlen(key)]; 
 } 
 int main() { 
-char msg[] = "MIDHUN SANKAR", key[] = "secretkey"; 
+char msg[] = "HARISH KUMAR", key[] = "secretkey"; 
 printf("Original: %s\n", msg); 
 xorCrypt(msg, key); 
 printf("Encrypted: %s\n", msg); 
